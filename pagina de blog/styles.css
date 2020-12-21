@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #E5E5E5;  
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 70px 736px 736px 736px 134px;
+        
+}
+
+
+.header{
+    background-color: #FFFFFF ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    grid-column: 1/3;
+    max-height: 70px;
+    display: flex;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+    
+    
+
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    margin-left: 140px; 
+}
+
+.navegação{
+    display: inline-block;
+    margin-right: 50px;
+    
+    
+}
+
+body > .header a {
+    margin-right: 25px;
+}
+
+.cardpost1{
+    width: 730px;
+    height: 696px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 140px;
+    grid-column:1/2;
+    grid-row: 2/3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+.cardpost1 h1{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    
+}
+
+.cardpost1 a{
+    margin-left: 550px;
+    border: 1px solid #FE0078;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #545454;
+}
+
+.cardpost2{
+    width: 730px;
+    height: 696px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 140px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.cardpost2 h1{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+.cardpost2 a{
+    margin-left: 550px;
+    border: 1px solid #FE0078;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #545454;
+}
+
+.cardpost3{
+    width: 730px;
+    height: 696px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 140px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.cardpost3 h1{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+.cardpost3 a{
+    margin-left: 550px;
+    border: 1px solid #FE0078;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #545454;
+}
+
+.card2{
+    width: 380px;
+    height: 1430px;
+    background: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 49px;
+    grid-column: 2/3;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    
+}
+
+.sbox input{
+    width: 340px;
+    height: 52px;
+    margin: 20px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+.sbox input:hover {
+    border-color:#FE0078 ;
+}
+
+.sbox input:focus{
+    border-radius: 10px;
+    border-color: #FE0078;
+    outline: none;
+}
+
+.card2 a:hover{
+    color:#FE0078;
+    border-color: #FE0078;
+}
+
+
+
+.card2 h2{
+    border-left: 2px solid #FE0078;
+    font-weight: bold;
+    margin-left: 33px;
+    height: 38px;
+    padding-left: 11px;
+    margin-bottom: 40px;
+}
+
+.card2 a{
+    border-bottom: 2px dotted #EEEEEE;
+    display: flex;
+    text-decoration: none;
+    color: #545454;
+    margin: 20px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixas{
+    width: 340px;
+    height: 240px;
+    background: #EEEEEE;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #545454;
+}
+
+
+.texto{
+    color: #929292;
+    margin-left: 24px;
+}
+
+.data{
+    color: #929292;
+    margin-left: 24px;
+    font-size: 12px;
+    
+} 
+
+.rodapé{
+    display: flex;
+    align-items: center;
+    background-color: #222222; ;
+    padding: 1em 2em;
+    margin-top: 64px;
+    justify-content: center;
+    grid-column: 1/3;
+    grid-row: 5/6;
+
+} 
+
+.navegação a{
+    text-decoration: none;
+    color: #545454;
+}
