@@ -196,6 +196,10 @@ body > .header a {
     justify-content: space-between;
 }
 
+span{
+    padding-right: 18px;
+}
+
 .caixas{
     width: 340px;
     height: 240px;
