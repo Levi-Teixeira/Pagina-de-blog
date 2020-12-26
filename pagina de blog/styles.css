@@ -150,12 +150,14 @@ body > .header a {
     
 }
 
+
 .sbox input{
     width: 340px;
     height: 52px;
     margin: 20px;
     border: 1px solid #EEEEEE;
     border-radius: 10px;
+    padding-left: 20px;
 }
 
 .sbox input:hover {
